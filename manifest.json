@@ -1,8 +1,8 @@
 {
     "manifest_version": 3,
-    "name": "BetterMoodle",
+    "name": "Better Moodle",
     "version": "1.0",
-    "description": "Add better functions to moodle",
+    "description": "A browser addon that improves the AAU moodle experience",
     "icons": {
         "16": "images/logo-mi-16.png",
         "32": "images/logo-mi-32.png",
