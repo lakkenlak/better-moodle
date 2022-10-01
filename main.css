@@ -1,133 +1,197 @@
-:root{
+:root {
     --darkest: #1e2124;
     --darker: #282b30;
     --dark: #36393e;
     --ligtt-dark: #424549;
     --blue: #7289da;
+    --aaublue: #00004B;
     --textwhite: white;
 }
- 
 
-body{
 
+body {
     background-color: var(--darkest) !important;
-
 }
 
-body .card{     
+body .card {
     background-color: var(--darker);
-
-
 }
+
 /*courses*/
-.course-info-container{
-
-    background-color: var(--blue);
-
+.course-info-container {
+    background-color: var(--ligtt-dark);
 }
+
 /*sidebar color (not buttons)*/
-#nav-drawer{
+#nav-drawer {
     background-color: var(--darker);
-
 }
+
 /*sidebar buttons*/
-body .list-group-item{
-background-color: var(--ligtt-dark);
-
+body .list-group-item {
+    background-color: var(--ligtt-dark);
 }
 
-body .bg-white{
-background-color: var(--darkest) !important;
-
+body .bg-white {
+    background-color: var(--darkest) !important;
 }
+
 /*Btn that hides sidebar*/
-body .bg-gray{
-background-color: var(--ligtt-dark) !important;
-border-color: var(--ligtt-dark);
-
+body .bg-gray {
+    background-color: var(--ligtt-dark) !important;
+    border-color: var(--ligtt-dark);
 }
 
-body .btn.light{
- border-color: var(--ligtt-dark);
+body .btn.light {
+    border-color: var(--ligtt-dark);
 }
 
 /*frem og tilbage knap*/
-body .page-link{
-    background-color:var(--blue) ;
-
+body .page-link {
+    background-color: var(--ligtt-dark);
+    border-color: var(--ligtt-dark);
 }
 
-body .page-item.disabled .page-link{
+body .page-item.disabled .page-link {
+    background-color: var(--ligtt-dark);
+    border-color: var(--ligtt-dark);
+}
+body .page-link:hover{
     background-color: var(--blue);
-
 }
+
 /*customise knap*/
-body .btn-secondary{
-    background-color: var(--blue);
-}
-body .bg-dark{
-    background-color:var(--darkest) !important;
+body .btn-secondary {
+    background-color: var(--ligtt-dark);
+    border-color: var(--ligtt-dark);
+    color: var(--textwhite);
 }
 
-body #region-main{/*calmoodle kalender */
-background-color: var(--dark);
+body .btn-secondary:hover{
+    background-color: var(--blue);
+    border-color: var(--blue);
+    color: var(--textwhite);
+}
+
+body .bg-dark {
+    background-color: var(--darkest) !important;
+}
+
+body #region-main {
+    /*calmoodle kalender */
+    background-color: var(--dark);
 }
 
 /*moodle kalender border*/
-body .fc-unthemed th,body .fc-unthemed td,body .fc-unthemed thead,body .fc-unthemed tbody,body .fc-unthemed .fc-divider,body .fc-unthemed .fc-row,body .fc-unthemed .fc-content,body .fc-unthemed .fc-popover,body .fc-unthemed .fc-list-view,body .fc-unthemed .fc-list-heading td {
+body .fc-unthemed th,
+body .fc-unthemed td,
+body .fc-unthemed thead,
+body .fc-unthemed tbody,
+body .fc-unthemed .fc-divider,
+body .fc-unthemed .fc-row,
+body .fc-unthemed .fc-content,
+body .fc-unthemed .fc-popover,
+body .fc-unthemed .fc-list-view,
+body .fc-unthemed .fc-list-heading td {
     border-color: var(--blue);
 }
 
 /*when you click on course*/
-body .modal-content{
- background-color: var(--dark);
-}
-
-body .fc-bgevent{
+body .modal-content {
     background-color: var(--dark);
 }
 
-
-
+body .fc-bgevent {
+    background-color: var(--dark);
+}
 
 /*tekst farve*/
 span {
     color: var(--textwhite);
 }
+
 body .navbar-light .navbar-nav .nav-link {
     color: var(--textwhite);
 }
 
-h5{
-
+.h5i {
     color: var(--textwhite);
 }
 
-body .page-context-header{
+body .page-context-header {
     color: var(--textwhite);
 }
 
-body .fc-left{
-color: var(--textwhite);
-}
-
-body .breadcrumb-item{
-color: var(--textwhite);
-}
-
-body .modal-body div{
+body .fc-left {
     color: var(--textwhite);
 }
 
-body .list-group-item-action:hover,body .list-group-item-action:focus{
+body .breadcrumb-item {
+    color: var(--textwhite);
+}
+
+body .modal-body div {
+    color: var(--textwhite);
+}
+
+body .list-group-item-action:hover,
+body .list-group-item-action:focus {
     background-color: var(--blue);
-    }
-    
-    body .navbar-light .navbar-nav .nav-link:hover,body .navbar-light .navbar-nav .nav-link:focus {
-        color:var(--blue) ;
-    }
+}
 
+body .navbar-light .navbar-nav .nav-link:hover,
+body .navbar-light .navbar-nav .nav-link:focus {
+    color: var(--blue);
+}
 
+body .categoryname {
+    color: var(--textwhite) !important;
+}
 
+body .summary {
+    color: var(--textwhite) !important;
+}
 
+body .no-overflow {
+    color: var(--textwhite) !important;
+}
 
+body .section_availability {
+    color: var(--textwhite) !important;
+}
+
+body .element.style {
+    color: var(--textwhite) !important;
+}
+
+body span {
+    color: var(--textwhite) !important;
+}
+
+body div {
+    color: var(--textwhite) !important;
+}
+
+body p {
+    color: var(--textwhite) !important;
+}
+
+body h1 {
+    color: var(--textwhite) !important;
+}
+
+body h2 {
+    color: var(--textwhite) !important;
+}
+
+body h3 {
+    color: var(--textwhite) !important;
+}
+
+body h4 {
+    color: var(--textwhite) !important;
+}
+
+body h5 {
+    color: var(--textwhite) !important;
+}
