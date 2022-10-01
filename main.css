@@ -1,0 +1,133 @@
+:root{
+    --darkest: #1e2124;
+    --darker: #282b30;
+    --dark: #36393e;
+    --ligtt-dark: #424549;
+    --blue: #7289da;
+    --textwhite: white;
+}
+ 
+
+body{
+
+    background-color: var(--darkest) !important;
+
+}
+
+body .card{     
+    background-color: var(--darker);
+
+
+}
+/*courses*/
+.course-info-container{
+
+    background-color: var(--blue);
+
+}
+/*sidebar color (not buttons)*/
+#nav-drawer{
+    background-color: var(--darker);
+
+}
+/*sidebar buttons*/
+body .list-group-item{
+background-color: var(--ligtt-dark);
+
+}
+
+body .bg-white{
+background-color: var(--darkest) !important;
+
+}
+/*Btn that hides sidebar*/
+body .bg-gray{
+background-color: var(--ligtt-dark) !important;
+border-color: var(--ligtt-dark);
+
+}
+
+body .btn.light{
+ border-color: var(--ligtt-dark);
+}
+
+/*frem og tilbage knap*/
+body .page-link{
+    background-color:var(--blue) ;
+
+}
+
+body .page-item.disabled .page-link{
+    background-color: var(--blue);
+
+}
+/*customise knap*/
+body .btn-secondary{
+    background-color: var(--blue);
+}
+body .bg-dark{
+    background-color:var(--darkest) !important;
+}
+
+body #region-main{/*calmoodle kalender */
+background-color: var(--dark);
+}
+
+/*moodle kalender border*/
+body .fc-unthemed th,body .fc-unthemed td,body .fc-unthemed thead,body .fc-unthemed tbody,body .fc-unthemed .fc-divider,body .fc-unthemed .fc-row,body .fc-unthemed .fc-content,body .fc-unthemed .fc-popover,body .fc-unthemed .fc-list-view,body .fc-unthemed .fc-list-heading td {
+    border-color: var(--blue);
+}
+
+/*when you click on course*/
+body .modal-content{
+ background-color: var(--dark);
+}
+
+body .fc-bgevent{
+    background-color: var(--dark);
+}
+
+
+
+
+/*tekst farve*/
+span {
+    color: var(--textwhite);
+}
+body .navbar-light .navbar-nav .nav-link {
+    color: var(--textwhite);
+}
+
+h5{
+
+    color: var(--textwhite);
+}
+
+body .page-context-header{
+    color: var(--textwhite);
+}
+
+body .fc-left{
+color: var(--textwhite);
+}
+
+body .breadcrumb-item{
+color: var(--textwhite);
+}
+
+body .modal-body div{
+    color: var(--textwhite);
+}
+
+body .list-group-item-action:hover,body .list-group-item-action:focus{
+    background-color: var(--blue);
+    }
+    
+    body .navbar-light .navbar-nav .nav-link:hover,body .navbar-light .navbar-nav .nav-link:focus {
+        color:var(--blue) ;
+    }
+
+
+
+
+
