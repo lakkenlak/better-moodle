@@ -96,6 +96,10 @@ body .fc-unthemed .fc-list-heading td {
     border-color: var(--blue);
 }
 
+body .calendar_event_course{
+    background-color: var(--dark);
+}
+
 /*when you click on course*/
 body .modal-content {
     background-color: var(--dark);
