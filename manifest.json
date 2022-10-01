@@ -16,9 +16,14 @@
             ],
             "css": [
                 "main.css"
+            ]
+        },
+        {
+            "matches": [
+                "https://www.moodle.aau.dk/local/planning/calendar.php"
             ],
             "js": [
-                "main.js"
+                "scripts/calendar.js"
             ]
         }
     ]

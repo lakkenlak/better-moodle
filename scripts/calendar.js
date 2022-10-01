@@ -1,6 +1,5 @@
 //run on body load
 document.body.onload = () => {
-
     darkenEventColors()
 }
 
