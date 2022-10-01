@@ -105,6 +105,47 @@ body .fc-bgevent {
     background-color: var(--dark);
 }
 
+body .dropdown-item{
+   background-color: var(--darkest);
+}
+body .dropdown-menu{
+    background-color: var(--darkest);
+}
+
+body .container-fluid{
+    background-color: var(--darkest) !important;
+}
+
+/*message pop up*/
+body .message-app{
+    background-color: var(--darkest);
+}
+body .simplesearchform .btn-submit{
+    background-color: var(--darkest);
+    border-color: var(--darkest);
+}
+/*Notifications*/
+body .simplesearchform .btn-submit{
+    background-color: var(--darkest) !important;
+    border-color: var(--darkest);
+}
+body .popover-region-content-container{
+    background-color: var(--darkest);
+}
+
+body .popover-region-header-container{
+    background-color: var(--darkest);
+}
+
+body .popover-region-seeall-text{
+    background-color: var(--darkest);
+}
+
+body .popover-region-footer-container{
+    background-color: var(--darkest);
+}
+
+
 /*tekst farve*/
 span {
     color: var(--textwhite);
