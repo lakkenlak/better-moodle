@@ -34,8 +34,8 @@ function darkenEventColors(){
             })
 
             //change background and border color
-            node.style["background-color"] = `rgb(${1/3*intValues[0]}, ${1/3*intValues[1]}, ${1/3*intValues[2]})`
-            node.style["border-color"] = `rgb(${1/3*intValues[0]}, ${1/3*intValues[1]}, ${1/3*intValues[2]})`
+            node.style["background-color"] = `rgb(${2/3*intValues[0]}, ${2/3*intValues[1]}, ${2/3*intValues[2]})`
+            node.style["border-color"] = `rgb(${2/3*intValues[0]}, ${2/3*intValues[1]}, ${2/3*intValues[2]})`
         }
     }
 }

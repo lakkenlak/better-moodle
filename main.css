@@ -56,7 +56,8 @@ body .page-item.disabled .page-link {
     background-color: var(--ligtt-dark);
     border-color: var(--ligtt-dark);
 }
-body .page-link:hover{
+
+body .page-link:hover {
     background-color: var(--blue);
 }
 
@@ -67,7 +68,7 @@ body .btn-secondary {
     color: var(--textwhite);
 }
 
-body .btn-secondary:hover{
+body .btn-secondary:hover {
     background-color: var(--blue);
     border-color: var(--blue);
     color: var(--textwhite);
@@ -96,7 +97,7 @@ body .fc-unthemed .fc-list-heading td {
     border-color: var(--blue);
 }
 
-body .calendar_event_course{
+body .calendar_event_course {
     background-color: var(--dark);
 }
 
@@ -109,43 +110,48 @@ body .fc-bgevent {
     background-color: var(--dark);
 }
 
-body .dropdown-item{
-   background-color: var(--darkest);
+body .dropdown-item {
+    background-color: var(--darkest);
+    color: var(--textwhite);
 }
-body .dropdown-menu{
+
+body .dropdown-menu {
     background-color: var(--darkest);
 }
 
-body .container-fluid{
+body .container-fluid {
     background-color: var(--darkest) !important;
 }
 
 /*message pop up*/
-body .message-app{
+body .message-app {
     background-color: var(--darkest);
 }
-body .simplesearchform .btn-submit{
+
+body .simplesearchform .btn-submit {
     background-color: var(--darkest);
     border-color: var(--darkest);
 }
+
 /*Notifications*/
-body .simplesearchform .btn-submit{
+body .simplesearchform .btn-submit {
     background-color: var(--darkest) !important;
     border-color: var(--darkest);
 }
-body .popover-region-content-container{
+
+body .popover-region-content-container {
     background-color: var(--darkest);
 }
 
-body .popover-region-header-container{
+body .popover-region-header-container {
     background-color: var(--darkest);
 }
 
-body .popover-region-seeall-text{
+body .popover-region-seeall-text {
     background-color: var(--darkest);
 }
 
-body .popover-region-footer-container{
+body .popover-region-footer-container {
     background-color: var(--darkest);
 }
 
@@ -239,4 +245,18 @@ body h4 {
 
 body h5 {
     color: var(--textwhite) !important;
+}
+
+body .generaltable {
+    color: var(--textwhite) !important;
+}
+
+body .generaltable:hover{
+    color: var(--textwhite) !important;
+}
+
+body .path-mod-assign td.submissionstatussubmitted,
+body .path-mod-assign div.submissionstatussubmitted,
+body .path-mod-assign a:link.submissionstatussubmitted {
+    background-color: var(--blue) !important;
 }
