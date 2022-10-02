@@ -14,9 +14,14 @@ body {
 }
 
 body .card {
-    background-color: var(--darker);
-}
+    background-color: var(--darker) !important;
+    border-color: var(--darker) !important;
 
+}
+body .moodle-dialogue-base .moodle-dialogue-wrap{
+    background-color: var(--darker);
+    border-color: var(--darker);
+}
 /*courses*/
 .course-info-container {
     background-color: var(--ligtt-dark);
