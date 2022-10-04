@@ -27,6 +27,12 @@ body .moodle-dialogue-base .moodle-dialogue-wrap{
     background-color: var(--ligtt-dark);
 }
 
+body .course-summaryitem{
+    background-color: var(--darker) !important;
+    border-color: var(--darker) !important;
+}
+
+
 /*sidebar color (not buttons)*/
 #nav-drawer {
     background-color: var(--darker);
@@ -35,6 +41,11 @@ body .moodle-dialogue-base .moodle-dialogue-wrap{
 /*sidebar buttons*/
 body .list-group-item {
     background-color: var(--ligtt-dark);
+    color: var(--textwhite);
+}
+
+body .list-group-item:hover{
+    color: var(--textwhite);
 }
 
 body .bg-white {
@@ -104,6 +115,10 @@ body .fc-unthemed .fc-list-heading td {
 
 body .calendar_event_course {
     background-color: var(--dark);
+}
+
+body .fc-widget-content{
+    background-color: var(--ligtt-dark);
 }
 
 /*when you click on course*/
@@ -265,3 +280,4 @@ body .path-mod-assign div.submissionstatussubmitted,
 body .path-mod-assign a:link.submissionstatussubmitted {
     background-color: var(--blue) !important;
 }
+
