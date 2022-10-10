@@ -275,6 +275,10 @@ body .generaltable:hover{
     color: var(--textwhite) !important;
 }
 
+body pre{
+    color: var(--textwhite) !important;
+}
+
 body .path-mod-assign td.submissionstatussubmitted,
 body .path-mod-assign div.submissionstatussubmitted,
 body .path-mod-assign a:link.submissionstatussubmitted {
